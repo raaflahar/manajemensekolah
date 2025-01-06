@@ -11,7 +11,7 @@ Aplikasi ini memungkinkan pengguna untuk mengelola data siswa dan guru. Pengguna
 
 ## Dokumentasi
 - Login
-![Login Page](public\img\login.png)
+![Login Page][https://raw.githubusercontent.com/raaflahar/manajemensekolah/refs/heads/main/public/img/login.png]
 
 - Dashboard
-![Dashboard Page](public\img\dashboard.png)
+![Dashboard Page][https://raw.githubusercontent.com/raaflahar/manajemensekolah/refs/heads/main/public/img/dashboard.png]
