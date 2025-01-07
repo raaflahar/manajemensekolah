@@ -14,6 +14,9 @@ return new class extends Migration
         Schema::create('siswa', function (Blueprint $table) {
             $table->integer('kelas');
             $table->string('nama');
+            $table->unsignedBigInteger('kelas_id');
+
+            $table->foreign('kelas_id')->references('id')->on('kelas')->onDelete('cascade');
         });
     }
 

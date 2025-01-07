@@ -11,4 +11,9 @@ class Guru extends Model
     protected $fillable = ['guru', 'kelas'];
     protected $table = 'Guru';
     public $timestamps = false;
+
+    public function kelas()
+    {
+        return $this->belongsTo(Kelas::class);
+    }
 }

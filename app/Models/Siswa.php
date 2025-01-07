@@ -12,4 +12,9 @@ class Siswa extends Model
     protected $table = 'Siswa';
     public $timestamps = false;
 
+    public function kelas()
+    {
+        return $this->belongsTo(Kelas::class);
+    }
+
 }
