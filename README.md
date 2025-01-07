@@ -9,9 +9,11 @@ Aplikasi ini memungkinkan pengguna untuk mengelola data siswa dan guru. Pengguna
 - **CRUD untuk Guru**: Tambah, ubah, hapus, dan daftar guru.
 - **Filter Kelas**: Memfilter data siswa dan guru berdasarkan kelas.
 
+Note : Penambahan fitur untuk melihat Daftar Siswa dan Guru berdasarkan kelas telah di update.
+
 ## Dokumentasi
 - Login
-![Login Page][https://raw.githubusercontent.com/raaflahar/manajemensekolah/refs/heads/main/public/img/login.png]
+![Login Page](https://raw.githubusercontent.com/raaflahar/manajemensekolah/refs/heads/main/public/img/login.png)
 
 - Dashboard
-![Dashboard Page][https://raw.githubusercontent.com/raaflahar/manajemensekolah/refs/heads/main/public/img/dashboard.png]
+![Dashboard Page](https://raw.githubusercontent.com/raaflahar/manajemensekolah/refs/heads/main/public/img/dashboard.png)
