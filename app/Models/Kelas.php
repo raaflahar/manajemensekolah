@@ -9,15 +9,17 @@ class Kelas extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['nama_kelas'];
+    protected $fillable = ['kelas'];
+    protected $table = 'Kelas';
+    public $timestamps = false;
 
     public function siswa()
     {
-        return $this->hasMany(Siswa::class);
+        return $this->hasMany(Siswa::class, 'kelas', 'kelas');
     }
 
     public function guru()
     {
-        return $this->hasMany(Guru::class);
+        return $this->hasMany(Guru::class, 'kelas', 'kelas');
     }
 }
